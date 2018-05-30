@@ -1,0 +1,28 @@
+*, *:before, *:after {box-sizing: border-box}
+.browser {background: #999; display: block; width: 80%; max-width: 960px; height: 750px; margin: 100px auto; border-radius: 8px 8px 0 0;}
+
+body {
+    background-image: url("bg.jpg");
+  background-size: cover;
+
+}
+
+.browser{
+    -webkit-box-shadow: 5px 5px 41px 23px rgba(0,0,0,0.56); 
+box-shadow: 5px 5px 41px 23px rgba(0,0,0,0.56);
+
+}
+
+.top-buttons {background: #ddd; padding: 10px 10px 6px; border-radius: 8px 8px 0 0;}
+.red-btn, .yellow-btn, .green-btn {width: 16px; height: 16px; display: inline-block; background: #a33; border-radius: 1000px; margin-right: 1px}
+.yellow-btn {background: #b90}
+.green-btn {background: #6a0}
+
+.banner {background: rgba(0,0,0,0.5); display: block; margin: 40px auto 20px; width: 90%; height: 300px; border-radius: 5px}
+.icon, .text {display: inline-block; background: rgba(0,0,0,0.25); width: 28.666667%; height: 125px; border-radius: 5px; margin-right: -4px; vertical-align: top;}
+.icon1, .text1 {margin-left: 5%}
+.icon2, .icon3, .text2, .text3 {margin-left: 2%}
+.text {background: none; margin-top: 20px; height: 225px}
+.text-line {background: rgba(255,255,255,0.66); display: block; height: 25px; margin-bottom: 10px}
+.short {width: 65%}
+
